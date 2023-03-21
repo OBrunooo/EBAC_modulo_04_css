@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+header li {
+    display:inline;
+}
+header li a {
+    color:white
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 420px;
+    height: 270px;
+}
+.articles article {
+    width:30%
+}
+
+header .container{
+    align-items: center;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+}
+
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+} 
+
+section{
+    padding: 16px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8;
+    margin-bottom: 8;
+}
+
+#esportes {
+    background-color: #a2c68c;
+}
+#economia {
+    background-color: #d7ec96;
+}
+
+#entretenimento {
+    background-color: #7488a2;
+}
+
+#tecnologia {
+    background-color: rgb(209, 207, 207);
+}
